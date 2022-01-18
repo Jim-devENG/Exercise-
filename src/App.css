@@ -1,0 +1,230 @@
+.App{
+    background-color:#fafafa;
+    font-family: Quicksand, sans-serif;
+    height: 100vh;
+}
+.nav-row{
+    margin-top: 23px;
+}
+.my-nav{
+    padding-top: 40px;
+    padding-bottom: 23px;
+} 
+
+.my-nav h1{
+    font-family: Quicksand, sans-serif;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+
+}
+.my-nav span{
+   color: #888ea8; 
+   font-size: 15px !important;
+   line-height: 21px;
+   letter-spacing: 0.5px;
+}
+
+.search{
+    border: 0;
+    padding: 10px;
+    width: 70%;
+    margin-bottom: 10px;
+    box-shadow: rgba(145, 158, 171, 0.24) 0px 0px 2px 0px, rgba(145, 158, 171, 0.24) 0px 16px 32px -4px;
+    border-radius: 6px;
+    text-align: start;
+    color: #c2bdbd;
+}
+.search-icon{
+    position: relative;
+    left: -30px;
+    top: 3px;
+    color: #dfe0e2;
+    font-size: 20px;
+}
+.contact-btn{
+    background: white;
+    box-shadow: rgba(145, 158, 171, 0.24) 0px 0px 10px 0px, rgba(145, 158, 171, 0.24) 0px 26px 42px -4px;
+    border: 0;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.btn-1{
+    margin-left: 60px !important;
+}
+.btn-2{
+    margin-left: 65px !important;
+}
+
+.icon1, .icon2{
+    color: #4361ee;
+    font-size: 20px;
+}
+.icon3{
+    font-size: 20px;
+}
+.head-card{
+    margin-top: 55px;
+    padding: 0;
+    background-color: white;
+    margin-bottom: 15px !important;
+    padding: 5px;
+    box-shadow: rgba(145, 158, 171, 0.24) 0px 0px 10px 0px, rgba(145, 158, 171, 0.24) 0px 26px 42px -4px;
+    border-radius: 6px;
+}
+.contact-card{
+    margin-top: 8px;
+    padding: 0;
+    background-color: white;
+    margin-bottom: 15px !important;
+    box-shadow: rgba(145, 158, 171, 0.24) 0px 0px 10px 0px, rgba(145, 158, 171, 0.24) 0px 26px 42px -4px;
+    border-radius: 6px;
+}
+.checkbox{
+    margin-right: 20px !important;
+    margin-left: 10px;
+    background: #0029dd !important;
+    border-radius: 20px;
+    border: 0;
+}
+
+.checkbox2{
+    margin-right: 20px !important;
+    margin-left: 10px;
+    background: #0029dd !important;
+    border-radius: 20px;
+    margin-top: 20px !important;
+    border: 0;
+    position: relative;
+    top: 10px;
+}
+.title{
+    color: #3b3f5c;
+    font-size: 19px;
+    line-height: 19.2px;
+    padding-top: 10px;
+  
+}
+input[type="checkbox"]{
+    background: #0029dd !important;
+    width: 15px;
+    height: 15px;
+    color: #0029dd;
+    border: 0;
+} 
+.trash{
+    color: #5d6fbb;
+    font-size: 20px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.pen{
+    margin-left: 105px !important;
+    float: none;
+
+}
+.contact-img{
+    width: 65px;
+    height: 55px;
+    margin-left: -15px;
+    margin-top: 10px;
+    border-radius: 8px;
+
+}
+.contact-name{
+    color: #3b3f5c;
+    font-size: 17px;
+    line-height: 19.2px;
+    padding-top: 18px;
+    margin-left: -32px;
+}
+.contact-designation{
+
+    color: #afaaaa;
+    font-size: 17px;
+    line-height: 19.2px;
+    margin-top: -10px;
+    margin-left: -32px;
+}
+.contact-card:hover .contact-name{
+    color: #4361ee;
+}
+.contact-card:hover .contact-text{
+    color: #4361ee;
+}
+
+.contact-text{
+    color: #3b3f5c;
+    font-size: 17px;
+    line-height: 19.2px;
+    padding-top: 29px;
+    margin-left: -20px;
+}
+.fun-icon{
+    padding-top: 19px;
+}
+.row-grid{
+    
+}
+.grid-card{
+    background-color: white;
+    box-shadow: rgba(145, 158, 171, 0.24) 0px 0px 10px 0px, rgba(145, 158, 171, 0.24) 0px 26px 42px -4px;
+    border-radius: 6px;
+    margin-right: 12px;
+    width: 24%;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 25px;
+ 
+}
+.grid-card-img{
+    display: flex;
+    justify-content: center;
+}
+.profile-pics{
+    width: 85px;
+    height: 75px;
+    margin-left: -15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.grid-name{
+    text-align: center;
+    color: #2196f3;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 24px;
+
+}
+.grid-designation{
+    text-align: center;
+    color: #8f9099;
+    margin-top: 6px;
+    margin-left: 10px;
+    font-size: 17px;
+    margin-bottom: 25px;
+
+}
+.grid-email{
+    color: #8f9099;
+    font-size: 18px;
+    padding: 10px;
+}
+.grid-tag{
+    color: #b8b8bb;
+    font-size: 14px;
+    padding: 10px;
+}
+.fun-icon{
+
+    display: flex;
+    justify-content: center;
+    
+}
+.pen-grid{
+    color: #5d6fbb;
+}
